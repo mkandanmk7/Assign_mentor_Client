@@ -4,6 +4,7 @@ import { AssignMentorsContext } from "../Context/AssignMentors";
 function StudentForm() {
   const [mentors, setMentors, students, setStudents] =
     useContext(AssignMentorsContext);
+  console.log(setMentors);
   const [name, setname] = useState("");
   const [batch, setBatch] = useState("");
   const [assignmentor, setassignMentor] = useState("");
