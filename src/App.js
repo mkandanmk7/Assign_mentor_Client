@@ -1,10 +1,10 @@
 import "./App.css";
 import MentorForm from "./Components/MentorForm";
 import StudentForm from "./Components/StudentForm";
-// import AssignorChangeMentor from "./Components/AssignorChangeMentor";
+import AssignorChangeMentor from "./Components/AssignorChangeMentor";
 // import MentorTable from "./Components/MentorTable";
 // import StudentTable from "./Components/StudentTable";
-// import AssignStudentsToMentor from "./Components/AssignStudentsToMentor";
+import AssignStudentsToMentor from "./Components/AssignStudentsToMentor";
 import { AssignMentorProvider } from "./Context/AssignMentors";
 // import ShowMentorStudents from "./Components/ShowMentorStudents";
 function App() {
@@ -20,8 +20,9 @@ function App() {
           <div className="col-md-5 col-sm-12">
             <MentorForm />
             <StudentForm />
-            {/*   <AssignorChangeMentor />
+            <AssignorChangeMentor />
             <AssignStudentsToMentor />
+            {/*  
             <ShowMentorStudents />  */}
           </div>
           <div className="col-md-7 col-sm-12">
